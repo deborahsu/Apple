@@ -295,7 +295,207 @@ h5{
 		background-size: 510px 329px;
 		}
 	
-	}
+    }
+    
+
+    /* Table Promotions */
+
+/* 1. Table Promotions for large Screen*/
+
+.large-screen {
+    margin-left: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.large-screen tr {
+    height: 30%;
+    text-align: center;
+}
+
+.large-screen td {
+    border: 5px solid white;
+    height: 500px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+}
+
+/* 2. Table Content */
+
+.content-table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    padding: 10px;
+    z-index: 0;
+}
+
+.content-table .logo-headline h4 {
+    margin: 15px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.content-table .logo-headline h5 {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 4px;
+    letter-spacing: 0.336px;
+    height: normal;
+    margin: 0px;
+}
+
+.content-table .logo-headline.black h5 {
+    color: black;
+}
+
+/* 3. Table Images */
+
+.News {
+    background-image: url("../Images/News-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.TV {
+    background-image: url("../Images/[www.apple.com][87]appletvplusheroeanv36ga64q6small2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Arcade {
+    background-image: url("../Images/apple_arcade_tile__e69rgw4ia2mq_medium_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Music {
+    background-image: url("../Images/apple_music__gdfamywhn6ye_medium_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.note {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+
+.note-music {
+    height: 30px;
+    width: 30px;
+}
+
+.Watch {
+    background-image: url("../Images/Apple-watch-large_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Airpods {
+    background-image: url("../Images/airpods_magic__medium_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* 4. Table Links */
+
+.content-table .link {
+    margin: 15px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.374px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    z-index: 2;
+    position: relative;
+}
+
+.content-table .link.black {
+    color: #0070c9;
+    z-index: 2;
+}
+
+.content-table a:link {
+    text-decoration: none;
+    z-index: 2;
+}
+
+.content-table a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.content-table a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.content-table .link.black a:visited {
+    text-decoration: none;
+    color: #0070c9;
+    z-index: 2;
+}
+
+.content-table .link.black a:hover {
+    text-decoration: underline;
+    color: #0070c9;
+    z-index: 2;
+}
+
+table .link {
+    padding: 0px;
+    color: white;
+    z-index: 2;
+}
+
+/* 5.Table Promotions for mobile */
+
+.mobile tr {
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.mobile td {
+    border: 5px 0px solid white;
+    padding: 0px;
+    height: 500px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+table.stripe.mobile {
+    padding: 0px;
+}
 
 @media screen and (max-width:735px){
 	.image.one{
