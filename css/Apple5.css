@@ -1,2 +1,99 @@
-Hey Debz x
+body {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.47059;
+}
+
+/* Menu styling */
+
+.menu {
+    border-top-width: 0px;
+    border-color: #fff;
+    width: 100%;
+    font-family: "Myriad Set Pro", "Helvetica Neue", "helvetica", "Arial", "San Serif";
+    background-color: rgba(45, 45, 45, 0.98);
+    color: white;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    position: fixed;
+}
+
+.menu-container {
+    background-color: rgba(45, 45, 45, 0.98);
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.Menu-entry a {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.menu a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: silver;
+    text-decoration: none;
+}
+
+.Applelogo {
+    height: 30px;
+    width: 30px;
+}
+
+.shopping-bag {
+    width: 20px;
+}
+
+.Menu-entry .shopping-bag {
+    height: 10px;
+    width: 20px;
+}
+
+.Menu-entry .search {
+    height: 15px;
+    width: 20px;
+}
+
+.hamburger-menu {
+    position: relative;
+    left: 19px;
+    top: 10px;
+}
+
+.hamburger-menu span {
+    display: block;
+    background-color: white;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 10px;
+}
 
