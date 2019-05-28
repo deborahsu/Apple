@@ -168,3 +168,154 @@ section{
 
 }
 
+
+
+footer{
+	position: relative;
+	top:50px;
+	background-color: #f2f2f2;
+	font-size: 12px;
+	font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	height: 325px;	
+	margin:0 -99rem;
+	padding:0 99rem;
+
+}
+
+
+
+.footer.wrapper{
+	top:20px;
+	position: relative;
+	border-top:1px solid rgb(214, 214, 214);
+	margin-top:10px;
+	width: 980px;;
+	margin:0px auto;
+	display:flex;
+	
+	
+}
+.column{ 
+	position: relative;
+	display:inline-block;
+	width: 24%;
+	left: 0px;
+	color: rgb(51, 51, 51);
+	text-align: left;
+	font-weight:400;
+	font-size:1em;
+	line-height:2;
+	color: #555555;
+	margin-top:20px;
+	height: 215px;
+	
+}
+.footer-links{
+	margin:0px;
+}
+h5{
+	top:0;
+	font-weight:600;
+	color: #333333;
+	font-size: 12px;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+}
+.bottom{
+	display:block;
+	width:980px;
+	margin: 0px auto;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: rgb(136, 136, 136);
+	font-size: 1em;
+	padding:20px 0px 21px;
+}
+.reseller{
+	border-bottom: 1px solid rgb(214, 214, 214);
+	top:20px;
+	position:relative;
+	padding-bottom:10px;
+
+}
+.reseller a{
+	color:#0070c9;
+}
+.copyright{
+	position:relative;
+	top:20px;
+	width:auto;
+
+}
+.copyright div{
+	display:inline-block;
+
+}
+.copy-text{
+	margin:5px 30px 0 0;
+}
+.terms{
+	margin: 5px 7px 0 0;
+	border-right: 1px solid rgb(214, 214, 214);
+	padding-right: 10px;
+}
+.terms1{
+	color: rgb(85,85,85);
+}
+.country {
+	display:inline-block;
+	float:right;
+	position: relative;
+	padding-top:5px;
+	color: rgb(85,85,85);
+}
+.flag{
+	background-image:url(https://www.apple.com/ac/flags/1/images/il/16.png);
+	background-size: 16px 16px;
+	height: 15px;
+	width:15px;
+	padding-right:20px;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1060 px){
+ 	.image.one{
+		width: 573px;
+		height:337px;
+		background-size: 573px 337px;
+		}
+ 	.image.two{
+		width: 716px;
+		height:295px;
+		background-size: 5716x 295px;
+		}
+ 	.image.three{
+		width: 659x;
+		height:382px;
+		background-size: 510px 329px;
+		}
+	
+	}
+
+@media screen and (max-width:735px){
+	.image.one{
+		width:279px;
+		height:351px;
+		background-size: 279px 351px;
+	}
+	.image.two{
+		width:220px;
+		height:309px;
+		background-size: 220px 309px;
+	}
+	.image.three{
+		width:510px;
+		height:329px;
+		background-size: 510px 329px;
+	}
+	.block{
+		display:block;
+		width:100%;
+	}
+}
+
