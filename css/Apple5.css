@@ -515,7 +515,26 @@ table.stripe.mobile {
 	}
 	.block{
 		display:block;
-		width:100%;
+        width:100%;
+    }
+        
+        .Menu-entry {
+            display: none;
+        }
+        .hamburger-menu {
+            width: 20%
+        }
+        .Applelogo {
+            width: 30px;
+            position: absolute;
+            bottom: 0px;
+        }
+        .shopping-bag {
+            width: 20px;
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+        }
 	}
-}
+
 
