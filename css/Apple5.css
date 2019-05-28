@@ -1,2 +1,70 @@
-Hey Debz x
+		
+section{
+	position: relative;
+	top:50px;
+
+}
+.air .title{
+	margin:0;
+	padding-top: 45px;
+}
+.air h3{
+	margin:5px 0 0;
+}
+
+
+
+
+.iphone-x{
+	text-align:center;
+}
+
+
+.image.one{
+	background-image: url(https://www.apple.com/v/home/ed/images/heroes/spring-iphone-xr/iphone_xr__b0z59ak0bqdy_large.jpg);
+	width:622px;
+	height:352px;
+	background-size: 622px 352px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.image-container{
+	text-align:center;	
+}
+.learn-more{
+	color:#0070c9;
+	font-size:17px;
+	font-weight: 400;
+	font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	
+}
+.content{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: "SF Pro display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-weight: 400;
+
+}
+.content.title{
+	font-size:56px;
+	font-weight:600;
+
+}
+
+.image.two{ 
+	background-image: url(https://www.apple.com/v/home/ed/images/heroes/spring-iphone-xs/iphone_xs__cm637qa5dno2_large.jpg);
+	width:774px;
+	height:313px;
+	background-size: 774px 313px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.image.three{ 
+	background-image: url(https://www.apple.com/euro/home/m/screens_alt/images/heroes/ipad-air/ipad_air_hero__csmc7ugxq32a_small.jpg);
+	width:693px;
+	height:395px;
+	background-size: 693px 395px;
+	background-repeat:no-repeat;
+	display: inline-block;
+}
 
