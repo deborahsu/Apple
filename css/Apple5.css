@@ -497,6 +497,20 @@ table.stripe.mobile {
     padding: 0px;
 }
 
+
+
+@media only screen and (min-width:735px) {
+    .hamburger-menu {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+    .bottom span {
+        display: none;
+    }
+}
+
 @media screen and (max-width:735px){
 	.image.one{
 		width:279px;
